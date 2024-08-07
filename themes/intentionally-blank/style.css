@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #007bff;
+}
+
+/* Main Content */
+#primary {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Press Release Container */
+article {
+    margin-bottom: 30px;
+}
+
+/* Press Release Title */
+.entry-title {
+    font-size: 1.8em;
+    margin: 0 0 10px 0;
+}
+
+.entry-title a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    text-decoration: underline;
+}
+
+/* Press Release Meta */
+.entry-footer {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+/* Press Release Content */
+.entry-content p {
+    margin: 0 0 10px 0;
+}
+
+.entry-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Post Thumbnail */
+.post-thumbnail {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style the widget area */
+.widget-area {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Style individual widgets */
+.widget {
+    margin-bottom: 20px;
+}
+
+/* Style widget titles */
+.widget-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Style the archives widget specifically */
+.widget_archive select,
+.widget_archive ul {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #primary {
+        padding: 15px;
+    }
+
+    .entry-title {
+        font-size: 1.5em;
+    }
+}
