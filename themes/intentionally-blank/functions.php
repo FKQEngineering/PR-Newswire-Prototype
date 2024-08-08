@@ -142,8 +142,8 @@ add_action( 'widgets_init', 'press_release_widgets_init' );
 
 function get_cision_token() {
     $url = 'https://contentapi.cision.com/api/v1.0/auth/login';
-    $username = 'FKQapi';
-    $password = 'contentapi2024@cision';
+	$username = CISION_API_USERNAME;
+    $password = CISION_API_PASSWORD;
 
     $response = wp_remote_post($url, array(
         'method' => 'POST',
